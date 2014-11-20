@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Check if the inverse is already computed. If so, return the inverse('i').  
-## If not, inverse if computed using 'solve()', stored in the global variable 'i' using 'setinverse()' function and returned.
+## If not, inverse is computed using 'solve()', stored in the global variable 'i' using 'setinverse()' function and returned.
 
 cacheSolve <- function(x, ...) {
         i <- x$getinverse()
